@@ -7,8 +7,10 @@
 # 100 >>> Сумма чисел числа 100 равна 1
 
 number = int(input('Введите трёхзначное число: '))
-count = 0
-if number > 0:
-    count = number % 10
-    summa = count + number % 10
-    print (f'Сумма числа {number} равна {summa}')
+
+i = number // 100
+j = (number // 10) % 10
+k = number % 10
+summa = i + j + k
+
+print (f'Сумма чисел числа {number} равна {summa}')
