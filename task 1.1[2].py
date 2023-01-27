@@ -14,3 +14,15 @@ k = number % 10
 summa = i + j + k
 
 print (f'Сумма чисел числа {number} равна {summa}')
+
+
+# number = int(input('Введите число: '))
+# summa = 0
+
+# while (number > 0):
+#     num = number % 10
+#     number = number / 10
+#     summa = summa + num
+
+# print (f'Сумма чисел числа {number} равна {summa}')
+
