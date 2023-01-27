@@ -22,7 +22,9 @@ b2 = (j // 10) % 10
 c2 = j % 10
 summa2 = a2 + b2 + c2
 
-if summa1 == summa2:
-    print ('yes')
-else:
-    print ('no')
+print ('yes' if summa1 == summa2 else 'no')
+
+# if summa1 == summa2:
+#     print ('yes')
+# else:
+#     print ('no')
