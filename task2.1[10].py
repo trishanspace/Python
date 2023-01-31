@@ -10,4 +10,12 @@
 # 1 0 1 1 0
 # Кол-во монет, чтобы перевернуть: 2
 
-
+n = int(input('Введите кол-во монет '))
+i = 1
+count = 0
+while i <= n:
+    position_coin = int(input(f'Положение монеты {i-1}: 0 или 1: '))
+    i += 1
+    if position_coin == 1:
+        count += 1
+print(count if count < n/2 else n - count)
